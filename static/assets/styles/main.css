@@ -19,18 +19,19 @@ caption{
     width: 100%;
     font-weight: bolder;
 }
-.form-group{
+.form{
     background-color: #3dd5f3;
     color: #1a1d20;
     text-align-all: center;
-    width: 50%;
-    margin:40px auto;
+    width:100%;
+    margin-left:10px;
     border-radius: 10px;
     padding:20px;
 }
 .maps{
-    text-align: center;
+    width: 60%;
     border-radius: 15px;
+    height:500px;
 
 }
 body{
@@ -62,4 +63,12 @@ p{
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+footer{
+    margin-bottom:auto;
+    text-align: center;
 }
