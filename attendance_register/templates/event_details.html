@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>EVENT_DETAILS</title>
-  <link rel="stylesheet" href="../../static/assets/styles/main.css">
-  <link rel="stylesheet" href="../../static/assets/styles/bootstrap-/css/bootstrap.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+event_details
+{% endblock %}
+{% block content %}
 <div class="title">
 <h1>EVENT DETAILS</h1>
 </div>
@@ -23,8 +19,4 @@
   <button>submit</button>
     </div>
 </form>
-<footer>
-   & copy online event system. All rights reserved.
-</footer>
-</body>
-</html>
+{% endblock %}

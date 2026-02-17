@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>EVENT_LIST</title>
-    <link rel="stylesheet" href="../../static/assets/styles/bootstrap-/css/bootstrap.css">
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+event_list
+{% endblock %}
+{% block content %}
 <h1>EVENT_LIST</h1>
 <table class="table caption-top">
   <caption>upcoming events</caption>
@@ -65,8 +61,4 @@
   </tbody>
 </table>
 <button>BACK</button>
-<footer>
-    &copy online event . All rights reserved.
-</footer>
-</body>
-</html>
+{% endblock %}

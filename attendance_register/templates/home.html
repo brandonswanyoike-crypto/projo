@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HOME</title>
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
 <h2>WELCOME HOME</h2>
 <div class="container">
 <div class="maps">
@@ -22,8 +19,4 @@
     </div>
 </form>
 </div>
-<footer>
-    & copy online event system. All rights reserved.
-</footer>
-</body>
-</html>
+{% endblock %}
